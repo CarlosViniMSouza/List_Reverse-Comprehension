@@ -91,6 +91,14 @@ new_list = [expression for variable in iterable]
 
 ### ° `iterable` pode ser qualquer objeto Python, como uma lista, tupla, string e assim por diante.
 
-### A partir da iteração que foi realizada e os cálculos que ocorreram em cada item durante a iteração, novos valores foram criados, os quais são salvos em uma variável, neste caso `new_list`. *A lista antiga (ou outro objeto) permanecerá inalterada*.
+### ° A partir da iteração que foi realizada e os cálculos que ocorreram em cada item durante a iteração, novos valores foram criados, os quais são salvos em uma variável, neste caso `new_list`. *A lista antiga (ou outro objeto) permanecerá inalterada*.
 
-### Pode haver uma instrução `if` opcional e uma cláusula `for` adicional.
+### ° Pode haver uma instrução `if` opcional e uma cláusula `for` adicional.
+
+## Como usar a compreensão de lista em Python:
+
+### Usando o mesmo exemplo anterior, aqui está como você criaria uma nova lista de números de 0 a 4 com a função `range()` em apenas uma linha, usando a compreensão de lista:
+
+```python
+
+```

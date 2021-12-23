@@ -1,6 +1,6 @@
 git add -A
-git commit -m "Next Topic: How to use list comprehension in Python | git automated"
+git commit -m "Errors in article_pt-br.md -> fixed"
 git push
 git status
-exit
+clear
 pwd

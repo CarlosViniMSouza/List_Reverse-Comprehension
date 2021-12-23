@@ -35,3 +35,14 @@ Output:
 
 [1, 4, 9, 16, 25, 36]
 """
+
+# Topic -> How to use list comprehension in Python:
+new_list = [num for num in range(5)]
+
+print(new_list)
+
+"""
+Output:
+
+[0, 1, 2, 3, 4]
+"""
