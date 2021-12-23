@@ -201,3 +201,41 @@ Output:
 ### O operador `and` indica que ambos devem ser atendidos para que o valor seja adicionado à nova lista.
 
 ### Os valores que não atendem às condições são excluídos e não são adicionados.
+
+## Como usar a compreensão de lista em strings em Python:
+
+### Você pode criar uma nova lista com os caracteres individuais contidos em uma determinada string.
+
+```python
+fave_language_chars = [letter for letter in "Python"]
+
+print(fave_language_chars)
+
+"""
+Output:
+
+['P', 'y', 't', 'h', 'o', 'n']
+"""
+```
+
+### A nova lista criada é composta por todas as letras separadas contidas na string "Python", que atua como um iterável.
+
+### Assim como os números, você pode realizar operações nos caracteres contidos em uma string e personalizá-los, dependendo de como deseja que eles estejam na nova lista criada.
+
+### Se você quiser que todas as letras sejam maiúsculas, você faria o seguinte:
+
+```python
+fave_language_chars_upper = [letter.upper() for letter in "Python"]
+
+print(fave_language_chars_upper)
+
+"""
+Output:
+
+['P', 'Y', 'T', 'H', 'O', 'N']
+"""
+```
+
+### Aqui, você usa o método `.upper()` para converter todas as letras em "Python" em maiúsculas e adicioná-las à variável `fave_language_chars_upper`.
+
+### O mesmo acontece se você quiser que todas as letras sejam minúsculas - em vez disso, use o método `lower()`.

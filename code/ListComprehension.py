@@ -94,3 +94,25 @@ Output:
 
 [22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48]
 """
+
+# Topico -> Como usar a compreensão de lista em strings em Python:
+
+fave_language_chars = [letter for letter in "Python"]
+
+print(fave_language_chars)
+
+"""
+Output:
+
+['P', 'y', 't', 'h', 'o', 'n']
+"""
+
+fave_language_chars_upper = [letter.upper() for letter in "Python"]
+
+print(fave_language_chars_upper)
+
+"""
+Output:
+
+['P', 'Y', 'T', 'H', 'O', 'N']
+"""
