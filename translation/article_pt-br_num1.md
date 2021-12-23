@@ -239,3 +239,16 @@ Output:
 ### Aqui, você usa o método `.upper()` para converter todas as letras em "Python" em maiúsculas e adicioná-las à variável `fave_language_chars_upper`.
 
 ### O mesmo acontece se você quiser que todas as letras sejam minúsculas - em vez disso, use o método `lower()`.
+
+
+## Conclusão:
+
+### E aí está! Agora você conhece os fundamentos da compreensão de listas em Python.
+
+### Ele oferece uma sintaxe elegante e concisa para a criação de novas listas com base em listas existentes ou outros iteráveis.
+
+### Se você estiver interessado em aprender mais sobre Python, freeCodeCamp tem uma [Certificação Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/).
+
+## Neste currículo baseado em projeto, você começará aprendendo os fundamentos da programação e avançará para assuntos mais complexos, como estruturas de dados. Você também construirá cinco projetos para colocar em prática o que aprendeu.
+
+### Obrigado por ler e feliz codificação!
