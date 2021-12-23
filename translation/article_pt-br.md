@@ -62,3 +62,35 @@ Output:
 ```
 
 ### Mas existe uma maneira mais rápida e sucinta de alcançar os mesmos resultados - usando a compreensão de lista.
+
+## O que é compreensão de lista em Python? Uma visão geral da sintaxe:
+
+### Ao analisar e trabalhar com listas em Python, muitas vezes você terá que manipular, modificar ou realizar cálculos em cada item da lista, de uma só vez.
+
+### Você também pode precisar criar novas listas do zero ou criar uma nova lista com base nos valores de uma lista já existente.
+
+### A compreensão de listas é uma maneira rápida, curta e elegante de criar listas em comparação com outros métodos iterativos, como loops `for`.
+
+### A sintaxe geral para compreensão de lista é assim:
+
+```
+new_list = [expression for variable in iterable]
+```
+
+### Vamos decompô-lo:
+
+### ° As compreensões de listas começam e terminam com colchetes de abertura e fechamento, `[]`.
+
+### ° Em seguida, vem a `expression` ou operação que você gostaria de realizar e realizar em cada valor dentro do iterável atual. Os resultados desses cálculos entram na nova lista.
+
+### ° A `expression` é seguida por uma cláusula `for`.
+
+### ° `variable` é um nome temporário que você deseja usar para cada item da lista atual que está passando pela iteração.
+
+### ° A palavra-chave `in` é usada para fazer um loop no iterável.
+
+### ° `iterable` pode ser qualquer objeto Python, como uma lista, tupla, string e assim por diante.
+
+### A partir da iteração que foi realizada e os cálculos que ocorreram em cada item durante a iteração, novos valores foram criados, os quais são salvos em uma variável, neste caso `new_list`. *A lista antiga (ou outro objeto) permanecerá inalterada*.
+
+### Pode haver uma instrução `if` opcional e uma cláusula `for` adicional.
