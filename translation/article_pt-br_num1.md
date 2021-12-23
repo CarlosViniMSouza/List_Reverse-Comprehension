@@ -145,3 +145,59 @@ Output:
 ### E se você tivesse uma lista pré-existente onde deseja manipular e modificar cada item? Isso seria semelhante ao exemplo anterior, onde criamos uma lista de quadrados.
 
 ### Novamente, você pode conseguir isso com apenas uma linha de código, usando a compreensão de lista:
+
+## Como usar condicionais com compreensão de lista em Python:
+
+### Opcionalmente, você pode usar uma instrução `if` com uma compreensão de lista.
+
+### A sintaxe geral é semelhante a esta:
+
+```
+new_list = [expression for variable in iterable if condition == True]
+```
+
+### As condicionais atuam como um filtro e adicionam uma verificação extra para precisão e personalização adicionais ao criar uma nova lista.
+
+### Isso significa que o valor na expressão deve atender a certos critérios e a uma determinada condição especificada por você, para poder entrar na nova lista.
+
+```python
+new_list = [num for num in range(50) if num % 2 == 0]
+
+print(new_list)
+
+"""
+Output:
+
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48]
+"""
+```
+
+### No exemplo acima, apenas os valores onde a condição `num% 2 == 0` é verificada e avalia como True entrarão em `new_list`.
+
+### O operador módulo é usado em cada um dos números na sequência de números começando em 0 e terminando em 49.
+
+### Se o restante dos números quando dividido por 2 for 0, então e somente então ele entra na lista.
+
+### Portanto, neste caso, ele cria uma lista apenas com números pares.
+
+### Você pode então torná-lo tão específico quanto desejar.
+
+### Por exemplo, você pode adicionar mais de uma condição, assim:
+
+```python
+new_list = [num for num in range(50) if  num > 20 and num % 2 == 0]
+
+print(new_list)
+
+"""
+Output:
+
+[22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48]
+"""
+```
+
+### Neste exemplo, existem duas condições `num > 20` e `num % 2 == 0`.
+
+### O operador `and` indica que ambos devem ser atendidos para que o valor seja adicionado à nova lista.
+
+### Os valores que não atendem às condições são excluídos e não são adicionados.

@@ -72,3 +72,25 @@ Output:
 
 [1, 4, 9, 16, 25, 36]
 """
+
+# Topico -> Como usar condicionais com compreensão de lista em Python:
+
+new_list = [num for num in range(50) if num % 2 == 0]
+
+print(new_list)
+
+"""
+Output:
+
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48]
+"""
+
+new_list = [num for num in range(50) if num > 20 and num % 2 == 0]
+
+print(new_list)
+
+"""
+Output:
+
+[22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48]
+"""
