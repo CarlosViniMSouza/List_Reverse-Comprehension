@@ -36,7 +36,7 @@ Output:
 [1, 4, 9, 16, 25, 36]
 """
 
-# Topic -> How to use list comprehension in Python:
+# Topico -> Como usar a compreensão de lista em Python:
 new_list = [num for num in range(5)]
 
 print(new_list)
@@ -45,4 +45,30 @@ print(new_list)
 Output:
 
 [0, 1, 2, 3, 4]
+"""
+
+new_list = [num * 2 for num in range(5)]
+
+print(new_list)
+
+"""
+Output:
+
+[0, 2, 4, 6, 8]
+"""
+
+# Iniciar lista:
+numbers = [1, 2, 3, 4, 5, 6]
+
+# nova lista (new list)
+# num * num é a operação que ocorre para criar os quadrados
+
+square_numbers = [num * num for num in numbers]
+
+print(square_numbers)
+
+"""
+Output:
+
+[1, 4, 9, 16, 25, 36]
 """

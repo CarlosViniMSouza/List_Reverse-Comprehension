@@ -1,5 +1,5 @@
 git add -A
-git commit -m "Errors in article_pt-br.md -> fixed"
+git commit -m "Next Topic: How to use conditionals with list comprehension in Python"
 git push
 git status
 clear

@@ -100,5 +100,48 @@ new_list = [expression for variable in iterable]
 ### Usando o mesmo exemplo anterior, aqui está como você criaria uma nova lista de números de 0 a 4 com a função `range()` em apenas uma linha, usando a compreensão de lista:
 
 ```python
+# Topico -> Como usar a compreensão de lista em Python:
+new_list = [num for num in range(5)]
 
+print(new_list)
+
+"""
+Output:
+
+[0, 1, 2, 3, 4]
+"""
 ```
+
+### Isso tem a mesma saída que o exemplo do loop for, mas com significativamente menos código!
+
+### Vamos decompô-lo:
+
+### ° o iterável, neste caso, é uma sequência de números de 0 a 4, usando o `range(5)`. `range()` constrói uma lista de números.
+
+### ° Você usa a palavra-chave `in` para iterar os números.
+
+### ° O `num` após a cláusula `for` é uma variável, um nome temporário para cada valor no iterável. Então, `num` seria igual a `0` na primeira iteração, então `num` seria igual a `1` na próxima iteração e assim por diante, até atingir e igualar o número 4, onde a iteração pararia.
+
+### ° O `num` antes da cláusula `for` é uma expressão para cada item na sequência.
+
+### ° Finalmente, a nova lista (ou outro iterável) que é criada é armazenada na variável `new_list`.
+
+### Você pode até realizar operações matemáticas nos itens contidos no iterável e o resultado será adicionado à nova lista:
+
+```python
+new_list = [num * 2 for num in range(5)]
+
+print(new_list)
+
+"""
+Output:
+
+[0, 2, 4, 6, 8]
+"""
+```
+
+### Aqui, cada número no `range(5)` será multiplicado por dois e o novo valor será armazenado na variável `new_list`.
+
+### E se você tivesse uma lista pré-existente onde deseja manipular e modificar cada item? Isso seria semelhante ao exemplo anterior, onde criamos uma lista de quadrados.
+
+### Novamente, você pode conseguir isso com apenas uma linha de código, usando a compreensão de lista:
