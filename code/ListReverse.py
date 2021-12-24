@@ -125,3 +125,34 @@ Output:
 
 [50, 40, 30, 20, 10]
 """
+
+# Topico -> Como reverter uma lista em Python usando a função reversed ():
+
+my_list = [10, 20, 30, 40, 50]
+
+for num in reversed(my_list):
+    print(num)
+
+"""
+Output:
+
+50
+40
+30
+20
+10
+"""
+
+# Iniciar Lista
+my_list = [10, 20, 30, 40, 50]
+
+# Use a função reversed() para inverter a ordem de my_list. Armazene a nova lista que é criada para a variável my_new_list
+my_new_list = list(reversed(my_list))
+
+print(my_new_list)
+
+"""
+Output:
+
+[50, 40, 30, 20, 10]
+"""

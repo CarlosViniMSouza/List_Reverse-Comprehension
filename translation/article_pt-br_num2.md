@@ -196,3 +196,40 @@ Output:
 ### Neste caso, você usa dois pontos para representar os argumentos `start` e `end`, e uma etapa negativa para decrementar:
 
 ### Nesse caso, uma nova lista é criada, com a ordem original da lista não sendo afetada.
+
+## Como reverter uma lista em Python usando a função `reversed()`:
+
+### Não confunda isso com o método `.reverse()`! A função `reversed()` embutida inverte a ordem de uma lista e permite que você acesse cada item individual por vez.
+
+```python
+my_list = [10,20,30,40,50]
+
+for num in reversed(my_list): 
+    print(num)
+    
+"""
+Output:
+
+50
+40
+30
+20
+10
+"""
+```
+
+### A função `reversed()` aceita uma lista como argumento e retorna uma versão reversa iterável dos itens contidos na lista.
+
+### Se você quiser armazenar o valor de retorno da função `reversed()` para uso posterior, deverá colocá-lo dentro do construtor `list()` e atribuir a nova lista a uma variável, assim:
+
+## Conclusão:
+
+### E aí está - agora você sabe o básico de como funciona a reversão de listas em Python!
+
+### Se você quiser saber mais sobre Python, freeCodeCamp oferece uma [Certificação Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
+
+### Neste currículo baseado em projeto, você começará do zero. Você aprenderá os fundamentos da programação e avançará para tópicos mais complexos.
+
+### No final, você construirá 5 projetos para colocar suas novas habilidades em prática.
+
+### Obrigado por ler e feliz codificação!

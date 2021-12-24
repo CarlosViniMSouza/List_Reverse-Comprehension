@@ -1,5 +1,5 @@
 git add -A
-git commit -m "Next Topic: How to reverse a list in Python using the reversed() function"
+git commit -m "Conclusion: add | Project concluded (really finished)"
 git push
 git status
 clear
