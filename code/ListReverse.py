@@ -56,3 +56,30 @@ Output:
 
 print(type(my_range))
 # Output: <class 'list'>
+
+# Topico -> Como reverter uma lista em Python usando o método .reverse():
+
+# Iniciar lista
+my_list = [10, 20, 30, 40, 50]
+
+print("My initial list is: ", my_list)
+
+"""
+Output:
+
+My initial list is:  [10, 20, 30, 40, 50]
+"""
+
+# Iniciar lista
+my_list = [10, 20, 30, 40, 50]
+
+# Invertendo ordem dos itens
+my_list.reverse()
+
+print("This is what the list looks like now: ", my_list)
+
+"""
+Output:
+
+This is what the list looks like now:  [50, 40, 30, 20, 10]
+"""
