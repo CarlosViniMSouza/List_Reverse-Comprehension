@@ -83,3 +83,45 @@ Output:
 
 This is what the list looks like now:  [50, 40, 30, 20, 10]
 """
+
+# Topico -> Como reverter uma lista em Python usando o operador de fatiamento:
+my_list = [10, 20, 30, 40, 50]
+
+my_list2 = my_list[1:3:1]
+
+print(my_list2)
+
+"""
+Output:
+
+[20, 30]
+"""
+
+my_list = [10, 20, 30, 40, 50]
+
+my_list2 = my_list[:]
+
+# ou ...
+
+my_list2 = my_list[::]
+
+# Printar no console
+print(my_list2)
+
+"""
+Output:
+
+[10, 20, 30, 40, 50]
+"""
+
+my_list = [10, 20, 30, 40, 50]
+
+my_list2 = my_list[::-1]
+
+print(my_list2)
+
+"""
+Output:
+
+[50, 40, 30, 20, 10]
+"""

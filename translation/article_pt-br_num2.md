@@ -139,3 +139,60 @@ This is what the list looks like now:  [50, 40, 30, 20, 10]
 ```
 
 ### Você vê que a ordem inicial da lista agora mudou e os elementos dentro dela foram invertidos.
+
+## Como reverter uma lista em Python usando o operador de fatiamento:
+
+### O operador de fatiamento funciona de maneira semelhante à função `range()` que você viu anteriormente.
+
+### Ele também aceita os argumentos `start`, `stop` e `step`.
+
+### A sintaxe é semelhante a esta: `start: end: step`.
+
+### Por exemplo:
+
+```python
+my_list = [10, 20, 30, 40, 50]
+
+my_list2 = my_list[1:3:1]
+
+print(my_list2)
+
+"""
+Output:
+
+[20, 30]
+"""
+```
+
+### No exemplo acima, queríamos buscar os itens começando do índice 1 até, mas não incluindo, o item com índice 3, incrementando um número por vez.
+
+### A indexação em Python começa em 0, portanto, o primeiro elemento tem um índice de 0, o segundo elemento tem um índice de 1 e assim por diante.
+
+### Quando você quiser imprimir todos os itens, você usa uma das seguintes maneiras:
+
+```python
+my_list = [10,20,30,40,50]
+
+my_list2 = my_list[:]
+
+# ou ...
+
+my_list2 = my_list[::]
+
+# Printar no console
+print(my_list2)
+
+"""
+Output:
+
+[10, 20, 30, 40, 50]
+"""
+```
+
+### Portanto, você pode usar um ou dois dois-pontos para produzir todos os itens contidos na lista.
+
+### Agora, para reverter todos os itens dentro da lista usando o operador de fatiamento, você deve incluir a etapa.
+
+### Neste caso, você usa dois pontos para representar os argumentos `start` e `end`, e uma etapa negativa para decrementar:
+
+### Nesse caso, uma nova lista é criada, com a ordem original da lista não sendo afetada.
