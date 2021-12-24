@@ -1,5 +1,5 @@
 git add -A
-git commit -m "Second part of project: List Reverse in Python"
+git commit -m "Next Topic: How to reverse a range in Python"
 git push
 git status
 clear
