@@ -42,3 +42,17 @@ Output:
 
 #<class 'list'>
 """
+
+# Topico -> Como reverter um intervalo em Python:
+
+my_range = list(range(9, -1, -1))
+
+print(my_range)
+"""
+Output:
+
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+"""
+
+print(type(my_range))
+# Output: <class 'list'>

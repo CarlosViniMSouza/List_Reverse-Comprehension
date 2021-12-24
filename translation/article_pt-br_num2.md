@@ -68,3 +68,25 @@ Output:
 #<class 'list'>
 """
 ```
+
+## Como reverter um intervalo em Python:
+
+### Para reverter um intervalo de números em Python com a função `range()`, você usa uma etapa negativa, como `-1`.
+
+### O exemplo abaixo cria uma lista de um intervalo de números começando de 9 até, mas não incluindo, -1 (então a contagem para em 0) e a contagem da sequência é diminuída em 1 a cada vez:
+
+```python
+my_range = list(range(9, -1, -1))
+
+print(my_range)
+"""
+Output:
+
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+"""
+
+print(type(my_range))
+# Output: <class 'list'>
+```
+
+### Ao reverter uma lista, você precisa incluir os parâmetros de `start` e `step`.
